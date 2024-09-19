@@ -17,7 +17,7 @@ class Knight(Thread):
         print(f'{self.name}, на нас напали!')
         suppostat = 100
         fl = 0
-        while suppostat != 0:
+        while suppostat > 0:
             suppostat -= self.power
             fl += 1
             sleep(1)
